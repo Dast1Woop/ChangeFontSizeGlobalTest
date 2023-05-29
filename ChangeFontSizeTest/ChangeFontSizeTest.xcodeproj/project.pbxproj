@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2C425382A24458800CD3C64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C425372A24458800CD3C64 /* AppDelegate.m */; };
+		C2C4253B2A24458800CD3C64 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C4253A2A24458800CD3C64 /* SceneDelegate.m */; };
+		C2C4253E2A24458800CD3C64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C4253D2A24458800CD3C64 /* ViewController.m */; };
+		C2C425412A24458800CD3C64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C4253F2A24458800CD3C64 /* Main.storyboard */; };
+		C2C425432A24458C00CD3C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C425422A24458C00CD3C64 /* Assets.xcassets */; };
+		C2C425462A24458C00CD3C64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C425442A24458C00CD3C64 /* LaunchScreen.storyboard */; };
+		C2C425492A24458C00CD3C64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C425482A24458C00CD3C64 /* main.m */; };
+		EA88BC9AF8E372FEB422ABD3 /* Pods_ChangeFontSizeTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E686F98353001A84FF7BA8F /* Pods_ChangeFontSizeTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E686F98353001A84FF7BA8F /* Pods_ChangeFontSizeTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChangeFontSizeTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C425332A24458800CD3C64 /* ChangeFontSizeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeFontSizeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C425362A24458800CD3C64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2C425372A24458800CD3C64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2C425392A24458800CD3C64 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C2C4253A2A24458800CD3C64 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		C2C4253C2A24458800CD3C64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C2C4253D2A24458800CD3C64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C2C425402A24458800CD3C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2C425422A24458C00CD3C64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2C425452A24458C00CD3C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2C425472A24458C00CD3C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2C425482A24458C00CD3C64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9382B3260B72E6575D91969 /* Pods-ChangeFontSizeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChangeFontSizeTest.release.xcconfig"; path = "Target Support Files/Pods-ChangeFontSizeTest/Pods-ChangeFontSizeTest.release.xcconfig"; sourceTree = "<group>"; };
+		FD407D9F39D82D86B8865856 /* Pods-ChangeFontSizeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChangeFontSizeTest.debug.xcconfig"; path = "Target Support Files/Pods-ChangeFontSizeTest/Pods-ChangeFontSizeTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2C425302A24458800CD3C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA88BC9AF8E372FEB422ABD3 /* Pods_ChangeFontSizeTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D100A842E95F2A60C6C8661 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E686F98353001A84FF7BA8F /* Pods_ChangeFontSizeTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2C4252A2A24458800CD3C64 = {
+			isa = PBXGroup;
+			children = (
+				C2C425352A24458800CD3C64 /* ChangeFontSizeTest */,
+				C2C425342A24458800CD3C64 /* Products */,
+				E819079354A7F98FC6F9D86D /* Pods */,
+				4D100A842E95F2A60C6C8661 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C2C425342A24458800CD3C64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2C425332A24458800CD3C64 /* ChangeFontSizeTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2C425352A24458800CD3C64 /* ChangeFontSizeTest */ = {
+			isa = PBXGroup;
+			children = (
+				C2C425362A24458800CD3C64 /* AppDelegate.h */,
+				C2C425372A24458800CD3C64 /* AppDelegate.m */,
+				C2C425392A24458800CD3C64 /* SceneDelegate.h */,
+				C2C4253A2A24458800CD3C64 /* SceneDelegate.m */,
+				C2C4253C2A24458800CD3C64 /* ViewController.h */,
+				C2C4253D2A24458800CD3C64 /* ViewController.m */,
+				C2C4253F2A24458800CD3C64 /* Main.storyboard */,
+				C2C425422A24458C00CD3C64 /* Assets.xcassets */,
+				C2C425442A24458C00CD3C64 /* LaunchScreen.storyboard */,
+				C2C425472A24458C00CD3C64 /* Info.plist */,
+				C2C425482A24458C00CD3C64 /* main.m */,
+			);
+			path = ChangeFontSizeTest;
+			sourceTree = "<group>";
+		};
+		E819079354A7F98FC6F9D86D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD407D9F39D82D86B8865856 /* Pods-ChangeFontSizeTest.debug.xcconfig */,
+				E9382B3260B72E6575D91969 /* Pods-ChangeFontSizeTest.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2C425322A24458800CD3C64 /* ChangeFontSizeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2C4254C2A24458C00CD3C64 /* Build configuration list for PBXNativeTarget "ChangeFontSizeTest" */;
+			buildPhases = (
+				A22F923144EFBE29382DBC3B /* [CP] Check Pods Manifest.lock */,
+				C2C4252F2A24458800CD3C64 /* Sources */,
+				C2C425302A24458800CD3C64 /* Frameworks */,
+				C2C425312A24458800CD3C64 /* Resources */,
+				7A9A8E77C46A45CAE858F3E0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChangeFontSizeTest;
+			productName = ChangeFontSizeTest;
+			productReference = C2C425332A24458800CD3C64 /* ChangeFontSizeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2C4252B2A24458800CD3C64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C2C425322A24458800CD3C64 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = C2C4252E2A24458800CD3C64 /* Build configuration list for PBXProject "ChangeFontSizeTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2C4252A2A24458800CD3C64;
+			productRefGroup = C2C425342A24458800CD3C64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2C425322A24458800CD3C64 /* ChangeFontSizeTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2C425312A24458800CD3C64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C425462A24458C00CD3C64 /* LaunchScreen.storyboard in Resources */,
+				C2C425432A24458C00CD3C64 /* Assets.xcassets in Resources */,
+				C2C425412A24458800CD3C64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A9A8E77C46A45CAE858F3E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChangeFontSizeTest/Pods-ChangeFontSizeTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChangeFontSizeTest/Pods-ChangeFontSizeTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChangeFontSizeTest/Pods-ChangeFontSizeTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A22F923144EFBE29382DBC3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChangeFontSizeTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2C4252F2A24458800CD3C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C4253E2A24458800CD3C64 /* ViewController.m in Sources */,
+				C2C425382A24458800CD3C64 /* AppDelegate.m in Sources */,
+				C2C425492A24458C00CD3C64 /* main.m in Sources */,
+				C2C4253B2A24458800CD3C64 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C2C4253F2A24458800CD3C64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2C425402A24458800CD3C64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2C425442A24458C00CD3C64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2C425452A24458C00CD3C64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2C4254A2A24458C00CD3C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2C4254B2A24458C00CD3C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2C4254D2A24458C00CD3C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD407D9F39D82D86B8865856 /* Pods-ChangeFontSizeTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PTUCTZC4VF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChangeFontSizeTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myl.ChangeFontSizeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2C4254E2A24458C00CD3C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9382B3260B72E6575D91969 /* Pods-ChangeFontSizeTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PTUCTZC4VF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChangeFontSizeTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myl.ChangeFontSizeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2C4252E2A24458800CD3C64 /* Build configuration list for PBXProject "ChangeFontSizeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C4254A2A24458C00CD3C64 /* Debug */,
+				C2C4254B2A24458C00CD3C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2C4254C2A24458C00CD3C64 /* Build configuration list for PBXNativeTarget "ChangeFontSizeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C4254D2A24458C00CD3C64 /* Debug */,
+				C2C4254E2A24458C00CD3C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2C4252B2A24458800CD3C64 /* Project object */;
+}
