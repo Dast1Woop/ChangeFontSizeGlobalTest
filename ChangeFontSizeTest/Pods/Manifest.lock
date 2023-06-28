@@ -1,20 +1,35 @@
 PODS:
   - Masonry (1.1.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
   - SnapKit (5.6.0)
 
 DEPENDENCIES:
   - Masonry
+  - RxCocoa
+  - RxRelay
+  - RxSwift
   - SnapKit
 
 SPEC REPOS:
   trunk:
     - Masonry
+    - RxCocoa
+    - RxRelay
+    - RxSwift
     - SnapKit
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
 
-PODFILE CHECKSUM: d2dedbf83ada3b519f0ffea675fb2d4127f07c02
+PODFILE CHECKSUM: 60d87ea60078db6c299379da67ed821e1eba121b
 
 COCOAPODS: 1.12.1
