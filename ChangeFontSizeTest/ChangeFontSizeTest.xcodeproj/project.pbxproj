@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C27BD5982A4D7ABA008FD8BA /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = C27BD5972A4D7ABA008FD8BA /* Aspects.m */; };
+		C27BD59C2A4E7000008FD8BA /* UITextField+MyCa.m in Sources */ = {isa = PBXBuildFile; fileRef = C27BD59B2A4E7000008FD8BA /* UITextField+MyCa.m */; };
+		C27BD5A02A4E8291008FD8BA /* NSObject+MyCa.m in Sources */ = {isa = PBXBuildFile; fileRef = C27BD59F2A4E8291008FD8BA /* NSObject+MyCa.m */; };
+		C27BD5A32A4E83E1008FD8BA /* UIFont+MyCa.m in Sources */ = {isa = PBXBuildFile; fileRef = C27BD5A22A4E83E1008FD8BA /* UIFont+MyCa.m */; };
+		C27BD5A62A4EA404008FD8BA /* NSUserDefaults+MyCa.m in Sources */ = {isa = PBXBuildFile; fileRef = C27BD5A52A4EA404008FD8BA /* NSUserDefaults+MyCa.m */; };
+		C27BD5A92A4EA985008FD8BA /* UITableViewCell+MyCa.m in Sources */ = {isa = PBXBuildFile; fileRef = C27BD5A82A4EA985008FD8BA /* UITableViewCell+MyCa.m */; };
+		C2C3A8662A4D5228005B45DC /* UILabel+MyCa.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C3A8652A4D5228005B45DC /* UILabel+MyCa.m */; };
+		C2C3A8692A4D5B37005B45DC /* UIButton+MyCal.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C3A8682A4D5B37005B45DC /* UIButton+MyCal.m */; };
 		C2C425382A24458800CD3C64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C425372A24458800CD3C64 /* AppDelegate.m */; };
 		C2C4253B2A24458800CD3C64 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C4253A2A24458800CD3C64 /* SceneDelegate.m */; };
 		C2C4253E2A24458800CD3C64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C4253D2A24458800CD3C64 /* ViewController.m */; };
@@ -23,6 +31,22 @@
 
 /* Begin PBXFileReference section */
 		4E686F98353001A84FF7BA8F /* Pods_ChangeFontSizeTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChangeFontSizeTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27BD5962A4D7ABA008FD8BA /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		C27BD5972A4D7ABA008FD8BA /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		C27BD59A2A4E7000008FD8BA /* UITextField+MyCa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+MyCa.h"; sourceTree = "<group>"; };
+		C27BD59B2A4E7000008FD8BA /* UITextField+MyCa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+MyCa.m"; sourceTree = "<group>"; };
+		C27BD59E2A4E8291008FD8BA /* NSObject+MyCa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MyCa.h"; sourceTree = "<group>"; };
+		C27BD59F2A4E8291008FD8BA /* NSObject+MyCa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MyCa.m"; sourceTree = "<group>"; };
+		C27BD5A12A4E83E1008FD8BA /* UIFont+MyCa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+MyCa.h"; sourceTree = "<group>"; };
+		C27BD5A22A4E83E1008FD8BA /* UIFont+MyCa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+MyCa.m"; sourceTree = "<group>"; };
+		C27BD5A42A4EA404008FD8BA /* NSUserDefaults+MyCa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+MyCa.h"; sourceTree = "<group>"; };
+		C27BD5A52A4EA404008FD8BA /* NSUserDefaults+MyCa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+MyCa.m"; sourceTree = "<group>"; };
+		C27BD5A72A4EA985008FD8BA /* UITableViewCell+MyCa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+MyCa.h"; sourceTree = "<group>"; };
+		C27BD5A82A4EA985008FD8BA /* UITableViewCell+MyCa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+MyCa.m"; sourceTree = "<group>"; };
+		C2C3A8642A4D5228005B45DC /* UILabel+MyCa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+MyCa.h"; sourceTree = "<group>"; };
+		C2C3A8652A4D5228005B45DC /* UILabel+MyCa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MyCa.m"; sourceTree = "<group>"; };
+		C2C3A8672A4D5B37005B45DC /* UIButton+MyCal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+MyCal.h"; sourceTree = "<group>"; };
+		C2C3A8682A4D5B37005B45DC /* UIButton+MyCal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MyCal.m"; sourceTree = "<group>"; };
 		C2C425332A24458800CD3C64 /* ChangeFontSizeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeFontSizeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C425362A24458800CD3C64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C2C425372A24458800CD3C64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,6 +89,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C27BD5992A4D83C5008FD8BA /* AspectsWithoutOnceHookLimit */ = {
+			isa = PBXGroup;
+			children = (
+				C27BD5962A4D7ABA008FD8BA /* Aspects.h */,
+				C27BD5972A4D7ABA008FD8BA /* Aspects.m */,
+			);
+			path = AspectsWithoutOnceHookLimit;
+			sourceTree = "<group>";
+		};
+		C27BD59D2A4E7678008FD8BA /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C27BD59E2A4E8291008FD8BA /* NSObject+MyCa.h */,
+				C27BD59F2A4E8291008FD8BA /* NSObject+MyCa.m */,
+				C27BD5A12A4E83E1008FD8BA /* UIFont+MyCa.h */,
+				C27BD5A22A4E83E1008FD8BA /* UIFont+MyCa.m */,
+				C27BD5A42A4EA404008FD8BA /* NSUserDefaults+MyCa.h */,
+				C27BD5A52A4EA404008FD8BA /* NSUserDefaults+MyCa.m */,
+				C2C3A8642A4D5228005B45DC /* UILabel+MyCa.h */,
+				C2C3A8652A4D5228005B45DC /* UILabel+MyCa.m */,
+				C2C3A8672A4D5B37005B45DC /* UIButton+MyCal.h */,
+				C2C3A8682A4D5B37005B45DC /* UIButton+MyCal.m */,
+				C27BD59A2A4E7000008FD8BA /* UITextField+MyCa.h */,
+				C27BD59B2A4E7000008FD8BA /* UITextField+MyCa.m */,
+				C27BD5A72A4EA985008FD8BA /* UITableViewCell+MyCa.h */,
+				C27BD5A82A4EA985008FD8BA /* UITableViewCell+MyCa.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		C2C4252A2A24458800CD3C64 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +140,8 @@
 		C2C425352A24458800CD3C64 /* ChangeFontSizeTest */ = {
 			isa = PBXGroup;
 			children = (
+				C27BD59D2A4E7678008FD8BA /* Categories */,
+				C27BD5992A4D83C5008FD8BA /* AspectsWithoutOnceHookLimit */,
 				C2C425362A24458800CD3C64 /* AppDelegate.h */,
 				C2C425372A24458800CD3C64 /* AppDelegate.m */,
 				C2C425392A24458800CD3C64 /* SceneDelegate.h */,
@@ -236,9 +292,17 @@
 				C2EEE4362A4C1D0100D58476 /* ThirdVcSwiftXib.swift in Sources */,
 				C2C4253E2A24458800CD3C64 /* ViewController.m in Sources */,
 				C2C425382A24458800CD3C64 /* AppDelegate.m in Sources */,
+				C2C3A8662A4D5228005B45DC /* UILabel+MyCa.m in Sources */,
+				C27BD5A92A4EA985008FD8BA /* UITableViewCell+MyCa.m in Sources */,
+				C27BD5982A4D7ABA008FD8BA /* Aspects.m in Sources */,
+				C27BD5A32A4E83E1008FD8BA /* UIFont+MyCa.m in Sources */,
+				C27BD59C2A4E7000008FD8BA /* UITextField+MyCa.m in Sources */,
+				C27BD5A02A4E8291008FD8BA /* NSObject+MyCa.m in Sources */,
 				C2EEE4322A4C1CE600D58476 /* SecVcOcXib.m in Sources */,
 				C2C425492A24458C00CD3C64 /* main.m in Sources */,
 				C2C4253B2A24458800CD3C64 /* SceneDelegate.m in Sources */,
+				C2C3A8692A4D5B37005B45DC /* UIButton+MyCal.m in Sources */,
+				C27BD5A62A4EA404008FD8BA /* NSUserDefaults+MyCa.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +448,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PTUCTZC4VF;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ChangeFontSizeTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -417,6 +482,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PTUCTZC4VF;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ChangeFontSizeTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

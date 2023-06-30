@@ -27,7 +27,7 @@ public class ThirdVcSwiftXib:UIViewController {
     public override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "人员列表"
+        title = "3vc-swift-xib"
         view.backgroundColor = .lightGray
         
         setUpTableView()

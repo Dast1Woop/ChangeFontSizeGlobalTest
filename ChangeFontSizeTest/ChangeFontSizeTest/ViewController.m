@@ -5,12 +5,13 @@
 //  Created by LongMa on 2023/5/29.
 //
 
+@import Masonry;
 #import "ViewController.h"
 #import "SecVcOcXib.h"
-@import Masonry;
+#import "NSUserDefaults+MyCa.h"
 
 @interface ViewController ()
-@property (nonatomic,assign) double fontSizeMulti;
+@property (nonatomic,assign) float fontSizeScale;
 @end
 
 @implementation ViewController
@@ -19,7 +20,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.title = @"首页";
+    self.title = @"首页-OC-code";
     
     self.view.backgroundColor = [UIColor orangeColor];
     
@@ -28,27 +29,31 @@
     [self.view addSubview:lbl];
     [lbl mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(@100);
-        make.height.equalTo(@50);
-        make.width.equalTo(@100);
+        make.height.lessThanOrEqualTo(@100);
+        make.leading.equalTo(@10);
         make.centerX.equalTo(self.view.mas_centerX);
     }];
 
     lbl.font = [UIFont systemFontOfSize:16];
-    lbl.text = @"code lbl";
+    lbl.text = @"code lbl-code lbl-code lbl-code lbl-code lbl-code lbl-code lbl-code lbl-code lbl-code lbl";
+    lbl.textAlignment = NSTextAlignmentCenter;
+    lbl.numberOfLines = 0;
+    lbl.backgroundColor = [UIColor cyanColor];
     
     //code button
     UIButton *jumpBtn = [UIButton buttonWithType:(UIButtonTypeCustom)];
     [self.view addSubview:jumpBtn];
     [jumpBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(@(100 + 50 + 30));
-        make.height.equalTo(@50);
-        make.width.equalTo(@100);
+        make.top.equalTo(@(100 + 50 + 230));
+        make.height.lessThanOrEqualTo(jumpBtn.titleLabel.mas_height);
+        make.leading.equalTo(@10);
         make.centerX.equalTo(self.view.mas_centerX);
     }];
-    [jumpBtn setTitle:@"code button,点击跳转" forState:UIControlStateNormal];
+    [jumpBtn setTitle:@"code button,点击跳转-test-test-test-test-test-test" forState:UIControlStateNormal];
     jumpBtn.titleLabel.font = [UIFont boldSystemFontOfSize:16];
     jumpBtn.titleLabel.numberOfLines = 0;
     [jumpBtn addTarget:self action:@selector(jumpBtnDC:) forControlEvents:UIControlEventTouchUpInside];
+    [jumpBtn setBackgroundColor:[UIColor greenColor]];
     
     UISlider *slider = [[UISlider alloc] init];
     [self.view addSubview:slider];
@@ -61,19 +66,27 @@
     
     [slider addTarget:self action:@selector(sliderValueChanged:) forControlEvents:(UIControlEventValueChanged)];
     
+    slider.value = [[NSUserDefaults standardUserDefaults] getFontScale] - 1;
+    self.fontSizeScale = slider.value * 1 + 1;
+    
     //save btn
     UIButton *saveBtn = [UIButton buttonWithType:(UIButtonTypeCustom)];
     [self.view addSubview:saveBtn];
     [saveBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(slider.mas_bottom).offset(20);
-        make.height.equalTo(@50);
-        make.width.equalTo(@100);
+        
+        //高度约束使用具体数值时，多行时背景色会有问题，背景色和响应区域不会自动扩大！！！因此，根据场景，可以使用文本标签真实高度
+        make.height.lessThanOrEqualTo(saveBtn.titleLabel.mas_height);
+        make.leading.equalTo(@10);
         make.centerX.equalTo(self.view.mas_centerX);
     }];
-    [saveBtn setTitle:@"save button,点击切换app内字体比例" forState:UIControlStateNormal];
+    
+    [saveBtn setTitle:@"save button,点击切换app内字体比例到滑块的值（1~2倍范围）" forState:UIControlStateNormal];
     saveBtn.titleLabel.font = [UIFont boldSystemFontOfSize:16];
+    
     saveBtn.titleLabel.numberOfLines = 0;
     [saveBtn addTarget:self action:@selector(saveBtnDC:) forControlEvents:UIControlEventTouchUpInside];
+    [saveBtn setBackgroundColor:[UIColor blueColor]];
 }
 
 - (void)jumpBtnDC:(UIButton *)btn {
@@ -82,13 +95,25 @@
 }
 
 - (void)sliderValueChanged:(UISlider *)slider {
-     self.fontSizeMulti = slider.value + 0.5;
+     self.fontSizeScale = slider.value * 1 + 1;
 }
 
 - (void)saveBtnDC:(UIButton *)btn {
+    [[NSUserDefaults standardUserDefaults] setFloat:self.fontSizeScale forKey:kKeyFontScale];
+    
     ViewController *newHomeVC = [[ViewController alloc] init];
     UINavigationController *navVc = [[UINavigationController alloc] initWithRootViewController:newHomeVC];
-    [UIApplication sharedApplication].keyWindow.rootViewController = navVc;
+    
+    __block UIWindow *keyWindow;
+    [[UIApplication sharedApplication].windows enumerateObjectsUsingBlock:^(__kindof UIWindow * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        if(obj.isKeyWindow) {
+            keyWindow = obj;
+            *stop = YES;
+        }
+    }];
+    
+    NSLog(@"keyWindow:%@", keyWindow);
+    keyWindow.rootViewController = navVc;
 }
 
 
