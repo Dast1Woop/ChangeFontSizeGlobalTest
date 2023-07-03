@@ -13,13 +13,18 @@
 
 @implementation UILabel (MyCa)
 +(void)load {
+    NSError *err = nil;
     [[self class] aspect_hookSelector:@selector(initWithCoder:) withOptions:AspectPositionAfter usingBlock:^(id<AspectInfo> aspectInfo) {
         UILabel *lbl = [aspectInfo instance];
         UIFont *crtFont = lbl.font;
         UIFont *newFont = [UIFont fontWithName:crtFont.fontName size: crtFont.pointSize * [[NSUserDefaults standardUserDefaults] getFontScale]];
         lbl.font = newFont;
         
-    } error:nil];
+    } error:&err];
+    
+    if(err) {
+        NSLog(@"hook error:%@", err.localizedDescription);
+    }
 
 }
 

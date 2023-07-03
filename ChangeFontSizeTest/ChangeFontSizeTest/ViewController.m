@@ -16,6 +16,8 @@
 
 @implementation ViewController
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -68,6 +70,7 @@
     
     slider.value = [[NSUserDefaults standardUserDefaults] getFontScale] - 1;
     self.fontSizeScale = slider.value * 1 + 1;
+    slider.hidden = YES;
     
     //save btn
     UIButton *saveBtn = [UIButton buttonWithType:(UIButtonTypeCustom)];
@@ -99,7 +102,7 @@
 }
 
 - (void)saveBtnDC:(UIButton *)btn {
-    [[NSUserDefaults standardUserDefaults] setFloat:self.fontSizeScale forKey:kKeyFontScale];
+//    [[NSUserDefaults standardUserDefaults] setFloat:self.fontSizeScale forKey:kKeyFontScale];
     
     ViewController *newHomeVC = [[ViewController alloc] init];
     UINavigationController *navVc = [[UINavigationController alloc] initWithRootViewController:newHomeVC];

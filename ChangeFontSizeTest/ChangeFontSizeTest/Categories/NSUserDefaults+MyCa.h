@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-extern NSString * _Nonnull const kKeyFontScale;
+//extern NSString * _Nonnull const kKeyFontScale;
 
 NS_ASSUME_NONNULL_BEGIN
 

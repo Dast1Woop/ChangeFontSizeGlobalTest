@@ -1,17 +1,18 @@
 //
-//  UIButton+MyCal.m
+//  UIButton+MyCa.m
 //  ChangeFontSizeTest
 //
-//  Created by LongMa on 2023/6/29.
+//  Created by LongMa on 2023/7/3.
 //
 
-#import "UIButton+MyCal.h"
+#import "UIButton+MyCa.h"
 #import "Aspects.h"
 #import "UIFont+MyCa.h"
 #import "NSUserDefaults+MyCa.h"
 
-@implementation UIButton (MyCal)
+@implementation UIButton (MyCa)
 +(void)load {
+    NSError *err = nil;
     
     /**
      注意：
@@ -29,6 +30,11 @@
 
         btn.titleLabel.font = newFont;
 //        NSLog(@"btn hook: new font:%@", newFont);
-    } error:nil];
+    } error:&err];
+    
+    if(err) {
+           NSLog(@"hook error:%@", err.localizedDescription);
+       }
 }
 @end
+
